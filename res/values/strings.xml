@@ -1,0 +1,31 @@
+<resources>
+
+    <string name="app_name">YYDRobotPhotos</string>
+    <string name="back">返回</string>
+    <string name="app_title">相册</string>
+    <string name="descr_image">Image</string>
+    <string name="select_all">全选</string>
+    <string name="cancel">取消</string>
+    <string name="delete_ok">确定</string>
+    <string name="delete_selected">是否删除？</string>
+    <string name="viewpager_indicator">%1$d/%2$d</string>
+
+    <string name="teaching">主人，可不可以具体一点，比如，打开今年5月份的照片！</string>
+
+    <!--挚康不需要拍照功能，如下为随机回答-->
+    <string name="zk_1">哇噻，又有新东西可以学了，我学会了告诉你</string>
+    <string name="zk_2">对于这个问题，我有权保持沉默</string>
+    <string name="zk_3">哇，你的问题真特别，我需要认真思考，我们先玩其它的吧</string>
+    <string name="zk_4">罗马也不是一日建成的，我学会了告诉你</string>
+    <string name="zk_5">你居然问倒了一个高智商的人，你赢了</string>
+
+    <!--萌宝说说：打开相册时的回复-->
+    <string name="opendPhotos">主人，相册已经打开了</string>
+
+    <!--删除图片对话框-->
+    <string name="dialog_alert_delete">确定要删除吗？</string>
+    <string name="dialog_alert_cancle">取消</string>
+    <string name="dialog_alert_comfire">确定</string>
+    <string name="delete_success">删除成功</string>
+
+</resources>

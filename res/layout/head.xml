@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="59dp"
+    android:orientation="horizontal"
+    android:id="@+id/rl_top_layout" >
+    <FrameLayout android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout android:layout_width="match_parent"
+        	android:layout_height="match_parent">
+	         <Button
+	            android:id="@+id/btn_back"
+	            android:layout_width="@dimen/dimen_80_dip"
+	            android:layout_height="@dimen/dimen_42_dip"
+	            android:layout_marginLeft="@dimen/dimen_18_dip"
+	            android:layout_marginTop="@dimen/dimen_10_dip"
+	            android:text="@string/back"
+	            android:paddingBottom="@dimen/dimen_5_dip"
+	            android:textColor="#ffffff"
+	            android:textSize="18sp"
+	            android:background="@drawable/btn_back_drawable" />
+	         
+		     <TextView 
+		         android:id="@+id/tv_top_title"
+		         android:layout_width="wrap_content"
+		         android:layout_height="wrap_content"
+		         android:layout_centerInParent="true"
+		         android:text="@string/app_title"
+		         android:textSize="24sp"
+		         android:textColor="#76EEF9"
+		         android:textStyle="normal"/>
+    	</RelativeLayout>
+    	
+        <RelativeLayout android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_50_dip"
+            android:id="@+id/rl_main_del">
+		   <TextView android:id="@+id/tv_cancel"
+		         android:layout_width="@dimen/dimen_50_dip"
+		         android:layout_height="match_parent"
+		         
+		         android:layout_marginLeft="@dimen/dimen_15_dip"
+		         android:layout_marginTop="@dimen/dimen_12_dip"
+		         android:text="@string/cancel"
+		         android:textSize="18sp"
+		         android:gravity="center"
+		          />
+		     <ImageView android:id="@+id/iv_trash"
+		         android:layout_width="@dimen/dimen_30_dip"
+		         android:layout_height="@dimen/dimen_30_dip"
+		         android:src="@drawable/lajt"
+		         android:layout_marginTop="@dimen/dimen_15_dip"
+		         android:layout_marginRight="@dimen/dimen_25_dip"
+		         android:layout_alignParentRight="true"/>
+		     
+		     <TextView android:id="@+id/tv_select_all"
+		         android:layout_width="@dimen/dimen_80_dip"
+		         android:layout_height="match_parent"
+		         android:layout_toLeftOf="@id/iv_trash"
+		         android:layout_marginRight="@dimen/dimen_10_dip"
+		         android:layout_marginTop="@dimen/dimen_12_dip"
+		         android:text="@string/select_all"
+		         android:textSize="18sp"
+		         android:gravity="center"
+		          />
+            
+		     
+        </RelativeLayout>
+    </FrameLayout>
+    
+    
+</RelativeLayout>

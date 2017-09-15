@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/dimen_300_dip"
+    android:layout_height="@dimen/dimen_180_dip"
+    android:background="@drawable/checkox"
+    >
+
+    <Button
+        android:id="@+id/delete_mydialog"
+        android:layout_width="@dimen/dimen_80_dip"
+        android:layout_height="@dimen/dimen_45_dip"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="@dimen/dimen_40_dip"
+        android:layout_marginBottom="@dimen/dimen_25_dip"
+        android:background="@drawable/checkdelete"
+        android:text="@string/delete_ok"
+        android:textColor="#a8f8ff"
+        android:textSize="18sp"
+        />
+
+    <Button
+        android:id="@+id/cancle_mydialog"
+        android:layout_width="@dimen/dimen_80_dip"
+        android:layout_height="@dimen/dimen_45_dip"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="@dimen/dimen_40_dip"
+        android:layout_marginBottom="@dimen/dimen_25_dip"
+        android:background="@drawable/checkcanle"
+        android:text="@string/cancel" 
+        android:textColor="#a8f8ff"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/textView_mydialog"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_50_dip"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/dimen_20_dip"
+        android:text="@string/delete_selected"
+        android:textSize="23sp"
+        android:textColor="#ffffff" />
+    
+</RelativeLayout>

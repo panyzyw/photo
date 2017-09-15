@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <RelativeLayout
+        android:id="@+id/RLayout_title"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#9bace2">
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/iv_back_selector1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/app_title"
+            android:textColor="#ffffff"
+            android:textSize="17sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/RLayout_time_line"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/RLayout_title"
+        android:layout_marginLeft="29dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="20dp">
+
+        <View
+            android:id="@+id/asset_line"
+            android:layout_width="4dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="6dp"
+            android:background="#ff33b5e5" />
+
+        <com.tonicartos.widget.stickygridheaders.StickyGridHeadersGridView
+            android:id="@+id/gv_photos"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="false"
+            android:columnWidth="104dp"
+            android:gravity="right"
+            android:horizontalSpacing="-10dp"
+            android:listSelector="@android:color/transparent"
+            android:numColumns="auto_fit"
+            android:overScrollMode="never"
+			android:scrollbarStyle="outsideInset"
+            android:verticalSpacing="6dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/RLayout_no_pic"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/RLayout_title"
+        android:visibility="invisible">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/nopic" />
+    </RelativeLayout>
+
+</RelativeLayout>
